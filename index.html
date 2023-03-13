@@ -420,7 +420,9 @@
         </div>
 
         <form class="subscribe-part">
-          <p class="subscribe-titel">Subscribe</p>
+          <div class="subscribe-part-desc">
+          <label class="subscribe-titel" for="user_subscribe">Subscribe</label>
+          <span class="subscribe-form">
           <input
             type="email"
             name="user_email"
@@ -434,8 +436,9 @@
               <use href="./images/icons.svg#icon-subscribe"></use>
             </svg>
           </button>
+          </span>
+          </div>
         </form>
-
         <div class="backdrop" data-modal>
           <div class="modal">
             <button type="button" class="modal-close-btn" data-modal-close>
@@ -443,7 +446,7 @@
                 <use href="./images/icons.svg#icon-close-btn"></use>
               </svg>
             </button>
-          </div>
+          
           <form class="modal-form">
             <p class="modal-form-titel">
               Leave your contacts and we will call you back
